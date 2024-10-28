@@ -1,0 +1,75 @@
+.success-message-container {
+    background-color: #1a2a4b;
+    text-align: center;
+    margin: auto;
+    height: 650px; /* Full viewport height to ensure it covers the entire screen */
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+  
+.login-success-section {
+    width: 100%;
+    margin-top: 150px; /* Adjust for spacing */
+    color: white;
+}
+  
+.success-img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 150px;
+    margin-bottom: 10px;
+}
+  
+.mandatory-message {
+    margin-bottom: 10px;
+    color: white;
+}
+  
+.password-reset-section {
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    height: auto; 
+    border-radius: 20px 20px 0px 0px;
+    width: 100%; 
+    margin-top: -20px; 
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.para{
+    margin-bottom: 40px;
+}
+  
+.reset-icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+  
+.success-message {
+    color: green;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+  
+.login-button {
+    width: 100%;
+    padding: 18px;
+    background-color: rgba(20, 172, 233, 0.308);
+    color:white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.login-button:hover {
+    background-color: #0a5f97;
+    font-size: larger;
+}
+  
